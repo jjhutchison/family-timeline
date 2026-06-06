@@ -1,0 +1,197 @@
+# Family Timeline
+
+**Document Type:** Chronological Spine
+**Purpose:** Integrate documented events across both families (Hutcheson, Chancey, and their kin) into a single timeline. Used as the source of truth for chronology in podcast scripts and analytical work.
+**Last Updated:** May 2026 (v9 — Thread B sub-step (c): 1855 Alabama State Census row (Sion + Kitsy + four children) marked REFUTED (was ✅) by direct primary inspection — the ✅ basis for "documented household unit" is gone; row KEPT per discipline (audit trail; never delete refuted entries); cross-references D-9 and source_1855_alabama_state_census_coffee_inspection.md. Four children's birth-range entries (Dan ~1843-44, Green ~1845-46, Lizzie ~1847-50, John ~1849-52) re-anchored to 1860 federal census + oral history (which was always their actual basis per D-9), with parenthetical clarification in each description so the basis is self-explanatory. Prior v8 — Hutchison/Cole consolidation: added the 1837 and 1845 Thomas Cole Sec-18 patents (D-8 multiplicity), the 1838 "Lewis Hutchison son" primary two-generation attestation, and the 1841 Dale Co. William Hutchison flagged lead; the existing 1841 county-creation row independently confirms the Dale-to-Coffee split underlying the Cole county-change reading. Prior v7: Lewis Jr. will and deed.)
+**Confidence Conventions:** Each entry carries the standard project confidence rating. Multiple ratings indicate aggregate confidence across sources.
+
+## How to use this file
+
+- This is the **canonical chronology**. If a podcast script or context file disagrees with this timeline, fix the script.
+- When new findings emerge, update this file. The entries should be terse — context lives in individual research profiles and context files, which this timeline references.
+- Entries are grouped by era, then by year within era, then by specific date within year where known.
+- Entries marked **HISTORICAL CONTEXT** are not direct family events but provide the framing in which family events occurred.
+
+---
+
+## Colonial era — deep roots
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1610 | John Mixon I born, England | 📚 | mixon_alabama_migration.md |
+| 1650 | John Mixon I arrives in Jamestown, VA as a headright | 📚 | mixon_alabama_migration.md |
+| 1655 | John Mixon I dies, Gloucester Co., VA | 📚 | mixon_alabama_migration.md |
+| 1670 | **HISTORICAL CONTEXT:** Edmund Chancy appears in NC records, Pasquotank Precinct (possible Chancey deep root — relationship to Alexander Chancey not established) | 🟡 | Historical Context/chancey_family_network.md |
+| ~1745 | John Mixon IV (Rhoda's grandfather) moves from Pasquotank Precinct, NC to Welsh Tract east of Pee Dee River, SC | 📚 | mixon_alabama_migration.md |
+| 1762 Nov 3 | Crown grant (Gov. Thomas Boone) to Michael Mixon: 200 acres, north side of Lynches Creek, Craven County, SC. Documented colonial Mixon presence in the Pee Dee region. Connection to Samuel Gooden Mixon's specific line NOT established (Michael/Samuel/William are recurring Mixon given names) — foundational, not yet connective. | ✅ (pending image) | source_1771_michael_mixon_deed.md |
+| 1769 Aug 25 | A 200-acre tract granted to Michael Mixon (cited in the 1814 Filing deed plat). Possible same Michael Mixon as the 1762 Lynches Creek grant, or a separate grant — upward-Mixon lead, unresolved. | 🟡 | source_1814_mixon_filing_deed.md |
+| 1771 Feb 24 | Michael Mixon Jr. & wife Catharine sell the southern 100 acres of the 1762 Lynches Creek tract to William Lester (£20). Witnesses incl. Samuel Mixon, William Mixon. Names a colonial Mixon kin cluster. | ✅ (pending image) | source_1771_michael_mixon_deed.md |
+| ~1750 | Samuel Gooden Mixon (Rhoda's father) born in Darlington District, SC | 📚 | mixon_alabama_migration.md |
+
+## The Revolution and early republic
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1775 | Samuel Gooden Mixon marries Keziah Smith at home of Rev. Evan Pugh of Cashua Neck, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| c. 1775–1783 | **Samuel Gooden Mixon's Revolutionary War service** — DAR Patriot Ancestor **A055524**: 65 days SC militia + provided beef (supply/patriotic service) to the SC militia. Militia + material aid, NOT Continental combat — state precisely. Identity match to the project's Samuel Gooden Mixon (b.~1750 Craven/Darlington, d.1817 Darlington, parents John Mixon IV & Mary Joyce) is SOLID ✅. NOTE: DAR proves HIS service + that *some* descent line is established; it does NOT by itself prove the project family's line through Rhoda (anchored independently in the 1821 petition). DAR Descendants DB check flagged. | 📚 DAR A055524 | source_dar_mixon_a055524.md ; People/Samuel_Gooden_Mixon.md |
+| 1779 | Ichabod Mixon (Rhoda's brother) born, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1791 | Alexander Gordon Chancey born (location unknown, possibly SC) | 📚 | Historical Context/chancey_family_network.md |
+| 1791 | Nathan Mixon (Rhoda's cousin, future AL pioneer) born, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1792 | Rhoda "Rhodie" Mixon born, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1796 | Joel and Isaac Mixon (twins, Rhoda's cousins) born, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1798 | Jehu Mixon Jr. (Rhoda's cousin) born, Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1803 | **HISTORICAL CONTEXT:** Louisiana Purchase doubles the size of the United States | ✅ | context/louisiana_purchase.md [planned] |
+| 1805 | Alexander Mixon (Ichabod's son, future MS migrant) born | 📚 | mixon_alabama_migration.md |
+| ~1809-1817 | Possible birth window for Sion's actual father if a generation was collapsed in family memory | 🟡 | People/Sion_Asbury_Hutcheson.md |
+| 1809 | **HISTORICAL CONTEXT:** Twiggs County, GA created from Wilkinson County | ✅ | places/twiggs_county_ga.md [planned] |
+
+## Mixon migration to Alabama begins
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1803 Nov 7 | Samuel Gooden Mixon granted a 390-acre tract on Sparrow Swamp, Darlington District, SC. This grant is the documented origin of the "~400 acres on Sparrow Swamp" that constitutes the estate's real property in 1817–1821. | ✅ (pending image) | source_1805_mixon_andrews_deed.md |
+| 1805 Apr 17 | Samuel Mixon conveys part of the 390-acre Sparrow Swamp tract to Thomas Andrews for one cent (legal-form transfer). Wife **Sarah Mixon** renounces dower. Recorded 27 Oct 1808. Witnesses incl. Cornelius Cook (recurs as heir-in-law 1821). | ✅ (pending image) | source_1805_mixon_andrews_deed.md |
+| 1811 Oct 31 | Nathan Mixon granted passport by GA Governor David B. Mitchell to pass through Indian Nations | 📚 | mixon_alabama_migration.md |
+| 1812 | Samuel Gooden Mixon writes will (location: Darlington District, SC) | 📚 | mixon_alabama_migration.md |
+| 1813 | **HISTORICAL CONTEXT:** Creek War begins (Red Sticks vs. accommodationists) | ✅ | context/creek_war.md [planned] |
+| 1814 | **HISTORICAL CONTEXT:** Treaty of Fort Jackson — Creek cede 22 million acres | ✅ | context/creek_removal_timeline.md |
+| ~1814 | Joel Mixon (cousin) marries Phereby Phillen in SC | 📚 | mixon_alabama_migration.md |
+| 1814 Mar 28 | A "Samuel Mixon" conveys 177 acres on Long Branch & Big Cypress, Darlington District, to John Filing; wife **Clarisy/Claresy Mixon** renounces dower. 🔴 **UNRESOLVED whether this grantor is Samuel Gooden Mixon or a different Samuel Mixon** (different land than the Sparrow Swamp tract; different wife name than Sarah). Do NOT assume this is Rhoda's father. Plat cites a 200-acre tract granted to Michael Mixon 25 Aug 1769 — possible tie to the 1762 Lynches Creek Michael Mixon grant (upward-Mixon lead). See Discrepancy Ledger D-2. | 🔴 identity unresolved | source_1814_mixon_filing_deed.md |
+| ~1815 | Alexander Chancey and Rhoda Mixon marry, Darlington District, SC (estimated) | 🔵 | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1817 | Samuel Gooden Mixon (Rhoda's father) dies intestate, Darlington District, SC. **Now ✅ PRIMARY** (1817 administration bond, appraisal, and sale order all internally dated 1817; OCR "1847/1877" are misreads). | ✅ | source_1817_mixon_administration.md |
+| 1817 Oct 8 | Administration bond ($6,000) for Samuel Mixon's estate: administrators **Sarah Mixon (widow) + Ichabod Mixon**; Anthony Windham co-bondsman. George Bruce, Ordinary, Darlington District. (NB: 1821 + 1829 equity records both name Sarah + Alexander Chancy instead; D-1 now shifted toward resolved-on-weight: Sarah+Ichabod 1817, Sarah+Alexander 1821–1829.) | ✅ (pending image) | source_1817_mixon_administration.md |
+| 1817 Oct 11–14 | Estate appraisal/inventory taken. Includes **"1 Negro Girl $600"** — an enslaved girl (named Lucy per the 1821 petition), appraised at more than all the estate's livestock, horses, and furniture combined. Appraisers Bartholomew Fields, John Childs, James Windham. | ✅ (pending image) | source_1817_mixon_administration.md  ; Lucy.md |
+| 1817 Nov | Estate sale (ordered Oct 1817). Sale account records the enslaved girl **Lucy "bid off" by Ichabod Mixon**, with Ordinary George Bruce's notation that she had been "improperly charged to the old Lady" (widow Sarah) and the charge reassigned to Ichabod. Many heirs buy estate property at the sale. | ✅ (pending image; $ figures garbled) | source_1817_mixon_sale_bill.md  ; Lucy.md |
+| 1817 | Kitsy Ann Chancey born, Darlington District, SC | 📚 ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1817 | Cotton trades at approximately 33 cents per pound on the American market — peak of the early-republic cotton boom. The world Kitsy is born into. | ✅ | context/pee_dee_context_1819_1831_v2.md |
+| 1817 | **HISTORICAL CONTEXT:** "Alabama Fever" term first appears in NC correspondence | ✅ | context/alabama_fever.md [planned] |
+| 1818 | Sion Asbury Hutcheson born, Twiggs County, GA | ✅ | People/Sion_Asbury_Hutcheson.md |
+| 1818 | John Chancey (Kitsy's brother) born | 📚 | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1818 Jul 16 | Nathan Mixon marries Sarah Ann Sparrow, Marion County, MS | 📚 | mixon_alabama_migration.md |
+| 1819 | **HISTORICAL CONTEXT:** Alabama achieves statehood | ✅ | |
+| 1819 autumn | **HISTORICAL CONTEXT:** Panic of 1819. Cotton prices collapse to under 17 cents per pound. The cotton South enters a long depression. Kitsy is two years old. | ✅ | context/pee_dee_context_1819_1831_v2.md |
+| ~1819 | Joel Mixon moves from SC to Wilcox County, AL | 📚 | mixon_alabama_migration.md |
+| 1819 Nov 13 | Isaac Mixon marries Clarissa Veazey, Clarke County, AL — pinning his AL arrival to mid-1819 | 📚 | mixon_alabama_migration.md |
+| 1820 | Kitsy reportedly appears as female under 10 in Alexander Chancey's household, SC 1820 census. **FLAG (May 2026):** confidence downgraded pending re-verification — the 1830 search found NO Alexander Chancey as head of household in SC and all located Chanceys are in Darlington, not the assumed Sumter. The 1820 placement should be re-examined against the image (district? head of household name?) before being treated as ✅. | ⬜ pending re-verification | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1820 | **HISTORICAL CONTEXT:** Federal Land Act sets land at $1.25/acre with cash purchase | ✅ | |
+| ~1820 | Jehu Mixon Jr. marries Pheriba Woodham in Darlington District, SC | 📚 | mixon_alabama_migration.md |
+| 1821 Jan 1 | Bill in Equity for Partition filed, Cheraw District, Barnabas Wadford & Lydia v. administrators (Sarah Mixon + Alexander Chancy named here) et al. **PRIMARY-CONFIRMS "Alexander Chancy and Rhoda his wife" as heirs-at-law of Samuel Mixon** — upgrades Rhoda-is-a-Mixon/daughter from 📚 to ✅. Estate = 400 acres Sparrow Swamp + "a Negro girl named Lucy" + stock. Heirs incl. Ichabod Mixon (corroborates brother). Corroborated by two independent transcriptions. | ✅ (pending image) | source_1821_mixon_equity_petition.md |
+| 1822 | Nathan Mixon obtains land grants on Sepulga River, Conecuh County, AL | 📚 | mixon_alabama_migration.md |
+| 1822 Jun 1 | **Twp 6N Rng 22E surveyed** (the family's future ground), St. Stephens Meridian — Original Survey by **Deputy Surveyor Robert R. Harris** under Surveyor General **John Coffee** (Huntsville office). The grid Sion bought into in 1854 was cut on the ground in 1822. | ✅ GLO survey dm_id 66607 | Source Files/source_blm_survey_plat_twp6n_rng22e.md ; Historical Context/alabama_public_land_survey_context_v1.md |
+| ~1823–1824 | **A DIFFERENT Samuel Mixon dies, Darlington District** (warrant of appraisement issued 23 Jan 1824; administrators **Harriet Mixon & John Sims**). **NOT Rhoda's father** (Samuel Gooden Mixon d. 1817, different administrators, estate in equity partition by 1821). Recorded solely to prevent same-name conflation and as documented proof that ≥2 Samuel Mixons lived in Darlington District. See Discrepancy Ledger D-2. | 🔴 different person — do not merge | source_1824_different_samuel_mixon_warrant.md |
+| 1825 | Daniel Hutcheson (Sion's documented father) dies, Twiggs County, GA. Sion is ~7 years old. | ✅ | People/Sion_Asbury_Hutcheson.md |
+| ~1825 | Jehu Mixon Jr. moves from SC to Conecuh County, AL, settling near brother Nathan | 📚 | mixon_alabama_migration.md |
+| 1825 Jul 7 | Nathan Mixon marries Elizabeth Patrick, Conecuh County, AL (after Sarah's 1824 death) | 📚 | mixon_alabama_migration.md |
+| 1820s | Ichabod Mixon (Rhoda's brother) moves from SC to Marion County, AL | 📚 | mixon_alabama_migration.md |
+| 1826 by Sept | **Sarah Mixon (widow of Samuel Gooden Mixon) is dead.** Darlington Court of Ordinary citation for administration 16 Sept 1826; bond $2,000 (Barnabas Watford principal; Hardy Watford, Joel C. DuBose sureties) 22 Sept; warrant of appraisement 22 Sept; **order of sale 27 Sept 1826** (Geo. Bruce, Ordinary — same officer as Samuel's 1817 estate). Administrator **Barnabas Watford** (= the 1829 equity plaintiff — coherent sequence). Fixes Sarah's death window. See D-1, D-5; `Sarah_Mixon_v1.md`. | ✅ image-clear (probate file) | source_1826_sarah_mixon_estate_FULL.md ; Sarah_Mixon_v1.md |
+| 1826 Oct | **Sarah Mixon's estate inventoried & sold.** Inventory total reported **$647.08** (image-clarity to be confirmed — NOT yet ✅). Includes **"1 Negro Girl Lucey," appraised $400** → Lucy is now in the *widow's* estate (D-6 non-linear chain). Sale bill (13 Oct 1826) buyers incl. **Alexander Chancey** (Kitsy's father, buying at his mother-in-law's sale — corroborating presence, NOT parentage-proving) and an **unnamed "Negro Wench" sold $502 — NOT assumed to be Lucy** (forbidden inference; D-6). Account current sworn by Watford **1 Sept 1837** (≈decade administration). Adjacent NON-Mixon records (McCullum sale bill; Williamson 1836 partition) reviewed & excluded. | ✅ image-clear | source_1826_sarah_mixon_estate_FULL.md ; Lucy.md |
+| 1813 Jan 2 | **QUARANTINED — 1813 promissory note** filed within Sarah Mixon's 1826 probate file: signed by mark "Sarah …", payable to garbled "[Jacob?] Mixon," $178.31. Predates the estate 13 yrs. NOT interpreted. Possible bearing on D-5 (Samuel's-wife identity) or Samuel-era chronology. Verification target, not a finding. | 🔴 quarantined | source_1826_sarah_mixon_estate_FULL.md |
+| 1827 Mar 6 | Jehu Mixon Jr. obtains land grants on Sepulga River, Conecuh County, AL | 📚 | mixon_alabama_migration.md |
+| 1829 | **Bill in Equity for Partition & Account FILED**, Cheraw District Court of Equity — *Barnabas Wadford (& Lydia) v. Alexander Chancy (admr) & Sarah Mixon (admx) of Samuel Mixon et al.* **FOUND, both pages, original clear** (`source_1829_mixon_equity_bill.md`). Establishes: "Alexander Chancy and Rhoda his wife" heirs-at-law, Alexander inherits *in right of his wife* → **Rhoda = Samuel's blood heir** (3rd independent record w/ 1821 & 1858); Alexander+Sarah administration (D-1, now 2 records vs. 1817 Ichabod); Hardy Wadford/Anthony Windham advancements (D-3, resolves toward primary); the partition was **CONTESTED litigation** (plaintiffs' allegation, adversarial-pleading discipline). It is the **BILL (complaint), NOT the decree.** | ✅ image-clear | source_1829_mixon_equity_bill.md |
+| 1829+ | **Cheraw/Darlington equity DECREE + commissioners' return** for *Wadford v. Chancy & Mixon* — ⭐ **TOP RESEARCH TARGET, NOT located.** The bill (above) is found; the *decree* (the court's ruling + actual distribution) is the separate instrument that would resolve Lucy's fate (D-6), the administrator question (D-1), the advancements (D-3), and the full heir distribution. Confirmed (by reading the full Sarah probate file) NOT to be in the Darlington probate packet — it is an equity-court instrument. Single highest-value document in the project. | 📚 (decree not yet located) | Lucy.md ; source_1829_mixon_equity_bill.md |
+
+## Chancey migration to Alabama and early Dale County years
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1830 | ~~Alexander Chancey household enumerated in 1830 Sumter District, SC census~~ **CORRECTED (May 2026):** No Alexander Chancey appears as head of household anywhere in the 1830 census under any spelling. Five Chancey households located, ALL in DARLINGTON District (not Sumter): Nancy (p.207), Sarah (p.237), James (p.239), Charles (p.247), Margaret (p.248). The prior "Sumter District 1830" claim was secondary-sourced and is not supported by the primary record. See Q16, Q2. | 🔴→ corrected | census_1830_chancey_capture.md |
+| 1830 | Five Darlington District Chancey households enumerated; four in a tight cluster (pp.237–248); all five non-enslaving (0 enslaved persons). James (male 30–40, b.~1790–1800) and Charles (male 40–50, b.~1780–1790) are sibling-hypothesis candidates for Alexander Chancey (b.~1791) — hypotheses only, not documented. No father-generation male (50–60/60+) in any household. | ✅ data; 🟡 interpretation | census_1830_chancey_capture.md |
+| 1830 Nov | William W. Mixon enumerated in 1830 Dale County, AL census (kinship to Rhoda TBD) | 📚 | mixon_alabama_migration.md |
+| 1830 Nov | Joshua Hutcheson enumerated in 1830 Dale County, AL census (relationship to Sion unknown) | 📚 | research_log.md |
+| ~1831 | **THE CHANCEY MIGRATION:** Alexander, Rhoda, and family move from SC to Dale County, AL. Kitsy is ~13. | 🔵 | mixon_alabama_migration.md |
+| 1832 Mar 24 | **HISTORICAL CONTEXT:** Treaty of Cusseta — final Creek cession in Alabama | ✅ | context/creek_removal_timeline.md |
+| ~1832 | Irvin "Irby" Chancey (Kitsy's brother) born, Alabama (the first AL-born Chancey child) | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1833 | Elender Chancey (Kitsy's sister) born, Alabama | 📚 | mixon_alabama_migration.md |
+| 1837 | Samantha Chancey (Kitsy's sister) born, Alabama | 📚 | mixon_alabama_migration.md |
+| 1840 | Alex Chaney household enumerated in 1840 Dale County, AL census | 📚 | mixon_alabama_migration.md |
+| 1840 | Multiple Chancey heads of household in 1840 Dale County census: John Chancey, Amos/Thomas Chancy, Alexander Chancy, Irvin Chancey | 📚 | Historical Context/chancey_family_network.md |
+| 1837 Jul 15 | **Thomas Cole** (of Dale County) patents W½SW¼ Sec 18, Twp 6N Rng 22E (Sparta dist.), 80.59 ac — **Sion's exact township/range**, ~17 yrs before Sion's Sec 27 entry. First of ≥2 "Thomas Cole" Sec-18 patents (cf. 1845). Land footprint only; NO kinship/debt info. Part of the Thomas Cole SAME-NAME MULTIPLICITY (D-8: ≥5 distinct Coles; this = referent B). | ✅ image-confirmed (patent) | source_blm_thomas_cole_patent_1845.md |
+| 1838 Dec 9 | **"Lewis Hutchison son"** appointed a commissioner (Duncan McIntire estate), Henry County Orphans Court — the archaic legal form *"Lewis Hutchison, the son,"* an 1838 court distinguishing him from Lewis Hutchison *the elder*. **Earliest/cleanest PRIMARY attestation that two living Lewis Hutchisons (father/son) co-existed** — strengthens D-7's premise & the collateral-hypothesis scaffolding. Does NOT identify which Lewis or connect Sion. A **Thomas Cole** co-appointed (commissioner-role, NOT kinship; flagged for the D-8 Cole inquiry, not a connection). | ✅ image-clear (the entry) | source_1838_henry_orphans_court_lewis_hutchison_son.md |
+| 1841 | **HISTORICAL CONTEXT:** Coffee County, AL created from Dale County | ✅ | places/coffee_county_al.md [planned] |
+| 1841 Dec 8 | **William Hutchison** paid $300 by Dale County for a house (county fiscal order; Callaway clerk). Image-clear as a fact; **NO kinship info.** Possibly — but UNCONFIRMED — the collateral-candidate William (b.~1808, son of elder Lewis Sr. per 1964 genealogy). Sharpens *where* to hunt the collateral William (Dale Co., 1840s). Same-name discipline / D-7. | ✅ image-clear (the order) | source_henry_dale_probate_william_hutchison_1841.md |
+| 1845 Jun 1 | **Thomas Cole** (now of Coffee County — same man as 1837 "of Dale Co." IF one individual; the 1841 county split explains the county change without a move) patents NW¼NW¼ Sec 18, Twp 6N Rng 22E, 40.30 ac — adjoining the 1837 parcel, same section. The 1845 patentee CANNOT be the Thomas Cole dead by 1839 (D-8 ref A); whether 1837 & 1845 are one man is OPEN. Land footprint only. | ✅ image-confirmed (patent) | source_blm_thomas_cole_patent_1845.md |
+| ~1840-1843 | Kitsy Ann Chancey marries Sion Asbury Hutcheson, Alabama (date and location estimated, not documented) | 🔵 | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| ~1843 | Jehu Travis Chancey (Kitsy's brother, named after her Mixon uncle James Jehu) born, Alabama | 📚 | mixon_alabama_migration.md |
+| Jun 1846 | Daniel ("Dan"/"D.A.") Hutcheson born, AL — Sion & Kitsy's eldest documented child (1860 census age 14; 1900 census b. Jun 1846). Enumerated "David" in 1860 (D-11, resolved-on-weight to David=Daniel). | ✅ | People/Daniel_Asbury_Hutcheson.md ; source_1900_census_loango_hutchinson_cluster.md |
+| May 1848 | Green Hutcheson born, AL (1860 census age 12; 1900 census b. May 1848). | ✅ | source_1900_census_loango_hutchinson_cluster.md |
+| ~1853 | Lizzie (Elizabeth) Hutcheson born, AL (1860 census age 7). Not located in the 1900 Loango cluster — married elsewhere or died; still to trace. | ✅ (1860) | source_1860_federal_census_coffee_hutcheson.md |
+| Aug 1854 | John ("J.W.") Hutcheson born, AL (1860 census age 6; 1900 census b. Aug 1854). | ✅ | source_1900_census_loango_hutchinson_cluster.md |
+| ~1855-1857 | Amanda ("Mandy") Hutcheson born, AL (1860 census age 3 ~1857; 1900 census b. Feb 1855). Later m. Daniel/"David" Patterson; Kitsy lived & died (1904) in their household. | ✅ | source_1900_census_loango_hutchinson_cluster.md |
+
+## The settled years before the war
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1826–1860 | **Lewis Hutchison** is the dominant Hutchison landholder of Sion's corner of Coffee County: a continuous patent chain (1826, 1837, 1841, 1845, 1849, 1852, 1858–60) concentrated in Twp 6N Rng 21E (Secs 24,25,26,35,36) AND including parcels in **Twp 6N Rng 22E Sec 30 — Sion's own township/range**. 🔵 HIGH-PRIORITY LEAD for Sion's 1825–1854 gap — NOT proven kinship (same-surname/same-locality = lead, not link; patents state no relationship). Distinct from the James-Hutchison-of-Twiggs-Co-GA lead. | 🔵 lead (primary land basis) | source_blm_hutcheson_patents.md |
+| 1847–1856 | **Lewis Hutchison Jr.** (NARA tract book, Twp 6N Rng 22E — Sion's township): 5 receipt-anchored entries — 1847 ×2 standard $1.25 (~160 ac), Oct 1854 graduated $0.25, Jul 1855 & Mar 1856 floor $0.125 (one with SE¼SW¼ fees refunded, ref R 54366). The "Jr." documents a **multi-generation Lewis Hutchison family** (Sr. + Jr.) actively acquiring land in Sion's exact township continuously 1847–56, **bracketing Sion's 1854 arrival on both sides.** [Lead-building entry; see the 1865 will below — the lead was tested and the direct hypothesis CLOSED.] | 🔵 lead (primary land) | source_nara_tract_book_twp6n_rng22e.md |
+| 1861 Jun 22 | **Israel & Mary Ann Gunter → Lewis Hutchison Jr.** deed, Coffee Co.: ~430 ac (Sec 19 Twp 6 Rng 20 + Sec 24 Twp 6 Rng 21, on Pea River) for **$2,150**; recorded 23 Jun 1861. First PRIMARY dated conveyance naming Lewis Hutchison Jr. — corroborates the family's substance; carries NO kinship info, does NOT connect Sion. (Grantor-index also shows an un-pulled **Joshua Gunter → "Lewis Hutchison et al" pp.655–656** — a multi-grantee target.) | ✅ image-confirmed | source_1861_gunter_hutchison_deed.md |
+| 1865 Aug 17 | **DECISIVE: Last Will & Testament of Lewis Hutchison Jr.** (Caroline Cole husband; 1893 "Hon. Lewis"; 1964 "Lewis Jr."), Coffee Co. Probate (Judge B. W. Starke). Names wife Caroline, sons Thomas Jefferson & Noah O., an executor son, son-in-law John J. Knight — **does NOT name Sion, nor his children by representation** (Sion d. 1864, year before). With the 1893 sketch & 1964 genealogy = 3 independent sources excluding Sion from this Lewis's children. **"Sion = son of Lewis Hutchison Jr." CLOSED on primary evidence.** Negative not over-read: silent on Lewis Hutchison **Sr.** & the **Josiah/William** collateral lines (the redirected avenue). | ✅ image-confirmed (primary will) | source_1865_lewis_hutchison_jr_will.md ; Lewis_Hutchison_Jr_v1.md |
+| 1850 | Alex Chancey household enumerated in 1850 Dale County, AL census: Alexander age 59, Rhoda age 52, six children at home including Matilda 23, Irby 19, Elender 17, Samantha 13, Jehy Traverse 7, Matilda 3 | 📚 | mixon_alabama_migration.md |
+| ~1850 | Ichabod Mixon (now in Chickasaw County, MS) appears in 1850 census there | 📚 | mixon_alabama_migration.md |
+| 1854 Mar 13 | **Irwin Chancy** (Kitsy's brother per oral history/Mixsonian) — **date of sale (entry)** of **NE¼SE¼, Section 27, Twp 6N Rng 22E, Coffee County**; 40.14 ac, $1.25/acre (standard), $50.17; receipt 14828 = patent AL2370__.205. **The Chancey enters this exact ground FIRST.** Date is from the NARA tract book (the true purchase date; the patent *document* date was 9/15/1854 — patent-date ≠ entry-date). | ✅ NARA tract book + BLM patent | source_nara_tract_book_twp6n_rng22e.md ; source_blm_chancey_patents.md |
+| 1854 Apr 1 | **The Sparta land district office (open at the Conecuh Courthouse since 1 Aug 1822) moves to Elba**, the new Coffee Co. seat. This is why the project's records carry both names — the "Sparta-district" tract book and the "Elba land district" patents. Consequence: Irwin's 13 Mar 1854 entry was at **Sparta** (pre-move); Sion's 10 Nov 1854 entry at **Elba** (post-move). | 📚 office-move date / 🔵 who-entered-where | Historical Context/alabama_public_land_survey_context_v1.md |
+| 1854 Nov 10 | **Sion Hutchison — date of sale** of **SW¼SE¼, Section 27, Twp 6N Rng 22E, Coffee County** near Bowles Creek. 40.14 ac, **$0.25/acre (Graduation Act), $10.03 total** — price now VERIFIED from the tract book (was a ~$10.03 estimate). Receipt 17261 = patent AL2390__.430. Age ~36; first solid record of Sion after his father's 1825 death. ~8 months after Irwin's entry, same SE¼ of Sec 27. Recorded "Hutchison." | ✅ NARA tract book + BLM patent | source_nara_tract_book_twp6n_rng22e.md ; source_blm_hutcheson_patents.md |
+| 1855 Feb 28 | **John Chancey — date of sale** of **SE¼SE¼, Section 27** (40.14 ac, $0.25/acre, $10.03; receipt 19462 = patent AL2420__.021). Completes the Section 27 SE¼ cluster: Irwin (Mar 1854) → Sion (Nov 1854) → John (Feb 1855), Chancey-bracketed across ~11 months. | ✅ NARA tract book + BLM patent | source_nara_tract_book_twp6n_rng22e.md |
+| 1858 Sep 1 | Sion's patent issues: "Sion **Hutchison** of Coffee County Alabama," SW¼SE¼ Sec 27 Twp 6N Rng 22E, 40.14 acres, 1820 cash-entry act, Doc 17261, accession AL2390__.430, Elba land office (Pres. Buchanan). Anchor verified to the patent image. NOTE recorded as "Hutchison" — a single-spelling "Hutcheson" search misses him (false-negative lesson). | ✅ BLM primary | source_blm_hutcheson_patents.md |
+| 1858 Sep 1 | **John Chancy** patents SE¼SE¼ Section 27 (AL2420__.021); **Alexander Chancy** patents NW¼NW¼ Sec 25 + NE¼NE¼ Sec 26 (AL2470__.329); **Irwin Chancy** also patents NW¼SW¼ Sec 26 (AL2470__.496, a SECOND distinct Irwin patent). A documented same-section + adjoining-section Chancey-Hutcheson land cluster, Twp 6N Rng 22E. | ✅ BLM primary | source_blm_chancey_patents.md |
+| 1852 Feb 20 | An **"Alexander Chancey"** co-signs a promissory note (with Seth A. & John Golden) secured by John Golden's mortgage to Kennedy & Stokes, **Henry County**, on **Twp 7N Rng 26E Sec 14** — the SAME section/twp/rng as Thomas Chancey's 1852 patent (AL2330__.026). Image-confirmed (incl. the 1852 date). Bears on **Q3** (Thomas/Amos line vs. Kitsy's line). WHICH Alexander, and what relationship, NOT determined — associational lead, not identification. | 🟡 associational lead (image-confirmed) | source_1852_golden_chancey_henry_mortgage.md |
+| 1858 Jun (recorded 29 Jun 1858) | **Alexander Chancey & Rhody Chancey** (married couple, joint execution = dower release) convey land, recorded **Coffee County** deed book, ack. before Judge J.P.D. Costello. First project record placing Alexander AND Rhoda together by deed in Coffee Co. (independent of patents & 1821 SC petition). **Grantor names image-confirmed**; grantee, parcel, price, exact date illegible (light original) — quarantined. Strong corroboration Kitsy's parents were active as a couple in Coffee Co.; not independent proof of the parentage (anchored in 1821 petition). | ✅ grantors (image) / 🔴 rest illegible | source_1858_chancey_coffee_deed.md |
+| 1855 | Sion and Kitsy household enumerated in Alabama State Census, Coffee County, with four children — REFUTED by inspection; see D-9. Every Coffee Co. page of the 1855 schedule was directly examined and no Hutchison head reads as Sion or Syon. The 1855 AL state census also cannot structurally document children — heads + age-bracket tallies only. The negative refutes Sion-as-1855-head but does NOT establish Sion-as-1855-absent (a non-head resident is invisible by design). | REFUTED (was ✅) | source_1855_alabama_state_census_coffee_inspection.md ; discrepancy_ledger_v5.md D-9 |
+| 1858 | Sion incurs $135.25 debt to Thomas Cole (disposition unclear) | ✅ | People/Sion_Asbury_Hutcheson.md |
+| 1860 | Sion and Kitsy household enumerated in 1860 Federal Census, Coffee County, AL | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1860 | Chancey cluster enumerated near Sion and Kitsy: Irvin, Matilda, Lucretia (midwife, b. ~1813 GA), Alexander | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1861 | **HISTORICAL CONTEXT:** Civil War begins | ✅ | |
+| 1862 Jan 31 | Amos Gilmore Chancey Jr. (son of Thomas Chancy) marries Winifred Ward, Dale County, AL — linking the Riley/Ward and Chancey families | 📚 | Historical Context/chancey_family_network.md |
+
+## The war and Sion's death
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1863 Dec 7 - 1864 Feb 17 | **HISTORICAL CONTEXT:** the **Fourth (final) Session of the First Confederate Congress**, Richmond. Opens with Davis's 7 Dec 1863 message urging Congress to "add largely to our effective forces"; passes the manpower package - substitution abolished (28 Dec 1863), habeas corpus suspended (15 Feb 1864), and the Third Conscription Act (17 Feb 1864, the session's last day). The Congress that conscripted Sion dissolved before he was mustered. | ✅ | Historical Context/csa_government_conscription_1864_context_v1.md |
+| 1864 Feb 17 | **HISTORICAL CONTEXT:** Third Confederate Conscription Act passed. Raises age range to 17-50; creates Senior Reserves (45-50) and Junior Reserves (17-18) for state defense, not to cross state lines. Passed Congress without serious opposition (necessity accepted); the political fights were over enforcement (habeas corpus), exemptions, and states' rights. | ✅ | Historical Context/civil_war_1864_context_v1.md ; csa_government_conscription_1864_context_v1.md |
+| 1864 ca. Mar | **HISTORICAL CONTEXT:** Confederate General Orders No. 33 issued by Adjutant and Inspector-General's Office, Richmond, implementing the Third Conscription Act. Creates the Reserves system. | ✅ | People/Sion_Asbury_Hutcheson.md |
+| 1864 Aug 5 | Sion Hutchison enlists as Private in Captain W. W. Fleming's Company of Reserves, CSA at Elba, Coffee County, AL. Age 46, in Senior Reserves age bracket. Physical: 5'8", black hair, yellow eyes (jaundice indicator), fair complexion. Same day Farragut closes Mobile Bay. | ✅ muster card; 🔵 jaundice interpretation | People/Sion_Asbury_Hutcheson.md |
+| 1864 Aug 8 & 23 | **HISTORICAL CONTEXT:** Fort Gaines (Aug 8) and Fort Morgan (Aug 23) surrender; Mobile Bay passes fully to Union control, all but ending Gulf blockade-running (Mobile city held until Apr 1865). The coast sealing makes the inland rail/arsenal core (Selma, Montgomery, the Mobile-Montgomery RR) the Confederacy's defensive prize - the line Sion's Reserves were posted to guard. | ✅ | Historical Context/civil_war_1864_context_v1.md |
+| 1864 Aug 6 | Fleming's Company ordered to Camp Pollard, on the Alabama-Florida border, to guard supply lines from Mobile to Montgomery against Federal advance from Pensacola. | ✅ muster roll | People/Sion_Asbury_Hutcheson.md |
+| 1864 Sep 2 | **HISTORICAL CONTEXT:** Atlanta falls to Sherman. 15 days before Sion's death. | ✅ | |
+| 1864 Sep 17 | Sion dies of disease, 42 days after enlistment. Mae Hutcheson oral history places death at Greenville, AL, roughly halfway between Elba and Camp Pollard, consistent with dying en route. No known grave. Kitsy widowed at ~47. | ✅ widow's relief applications; 🗣️ Mae Hutcheson | People/Sion_Asbury_Hutcheson.md |
+| 1865 | **HISTORICAL CONTEXT:** Civil War ends | ✅ | |
+
+## Kitsy's long widowhood
+
+| Year | Event | Confidence | Reference |
+|------|-------|------------|-----------|
+| 1864-1889 | 25-year gap — Kitsy's activities and circumstances during this period largely unknown | — | open_questions_v12.md Q-TBD |
+| 1880 | Kitsy enumerated in 1880 Federal Census, age 62 | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1889 | Kitsy begins filing annual Confederate widow's relief applications (continues through 1899) | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1900 | Kitsy enumerated in 1900 Federal Census, **Loango Precinct, Covington Co.**, as mother-in-law in the household of **Daniel Patterson** (wife "Mandy" = her daughter Amanda) — primary-confirms the oral-history Amanda-Patterson household. States **3 children born / 3 living** (inconsistent with >=4 children alive in the same district — see Q12; adoption-vs-informant-error unresolved). | ✅ | People/Kitsy_Ann_Chancey_Hutcheson.md ; source_1900_census_loango_hutchinson_cluster.md |
+| 1900 | **Hutchinson family cluster, Loango Precinct, Covington Co.:** seven consecutive Hutchinson households; three brothers — Daniel (D.A., b.1846), Green (b.1848), John (J.W., b.1854), each father GA / mother SC — are Sion & Kitsy's sons reassembled; Gus (b.1887) is a son in Daniel's household. The post-1864 family's move Coffee -> Covington ("the Loango migration"). | ✅ | source_1900_census_loango_hutchinson_cluster.md |
+| 1901 Feb 7 | **HISTORICAL CONTEXT:** Twiggs County, GA courthouse burns. Most pre-1901 GA records destroyed. | ✅ | places/twiggs_county_ga.md [planned] |
+| 1904 | Kitsy dies from broken hip sustained while getting into a buggy at Amanda and David Patterson's home. Taken back inside and dies there. | 📚 🗣️ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1904 | Kitsy buried at Fairmount Cemetery, Red Level, AL, beside Amanda. No headstone. Grave marked by homemade coping (per Warren Hutcheson). | 🗣️ | People/Kitsy_Ann_Chancey_Hutcheson.md |
+| 1923 Feb 11 | **Daniel Asbury Hutcheson** (Sion & Kitsy's eldest son; the project owner's Gen-2 ancestor) dies, Loango, Covington Co., AL. | 📚 (WikiTree, citing AL death cert + obituary) | People/Daniel_Asbury_Hutcheson.md |
+
+---
+
+## Era-spanning patterns
+
+Some events don't fit a single date and warrant prose summary:
+
+**The Mixon migration to Alabama (1811-1830):** Took place across a 19-year period. Nathan Mixon's 1811 passport is the earliest date; William W. Mixon's 1830 Dale County census appearance is the latest pre-Chancey date. See `mixon_alabama_migration.md` for the full mapping.
+
+**Sion's missing years (1825-1854):** A 29-year gap between Daniel's death (Sion ~7) and Sion's first appearance in Coffee County land records (Sion 36). Who raised him, how he survived, and how he traveled from Twiggs County, GA to Coffee County, AL is unknown. See `People/Sion_Asbury_Hutcheson.md` and open_questions_v12.md Q9.
+
+**Kitsy's widowhood (1864-1904):** 40 years. Documented through census entries (1880, 1900) and Confederate widow's relief applications (1889-1899). Day-to-day life largely unrecoverable.
+
+---
+
+## Process notes
+
+- When adding a new event, include the confidence rating and reference the canonical file where the supporting evidence lives
+- When the timeline differs from a podcast script or context file, trust the timeline (and fix the other source)
+- Where dates are estimated, use the tilde (~) and note the basis for estimation
+- Don't overload the timeline with detail — keep entries terse; context files carry the depth
+
+---
+
+*Document prepared as part of Hutcheson Family History Project. Last revised May 2026.*
