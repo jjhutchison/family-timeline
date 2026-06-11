@@ -71,14 +71,19 @@ def parse(md: str):
         if date.lower() in ("year", "date") or set(date) <= set("-: "):
             continue  # header row / separator
         grp, cls = confidence_group(conf)
+        is_ctx = "HISTORICAL CONTEXT" in event
+        # National-context rows (e.g., presidential elections) shouldn't pick up
+        # family tags from incidental given-name matches like VP "Daniel D. Tompkins".
+        # Every election row says "Vice President"; nothing else in the timeline does.
+        is_election = "vice president" in event.lower()
         cur["events"].append({
             "date": date,
             "event": event,
             "confidence": conf,
             "reference": ref,
             "era": cur["title"],
-            "is_context": "HISTORICAL CONTEXT" in event,
-            "families": families_for(event),
+            "is_context": is_ctx,
+            "families": [] if is_election else families_for(event),
             "group": grp,
             "cls": cls,
         })
