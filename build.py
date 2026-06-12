@@ -103,6 +103,7 @@ TEMPLATE = r"""<!doctype html>
     --bg:#f5f1e8; --panel:#fffdf8; --ink:#2b2622; --muted:#7a7068; --line:#e3dccd;
     --documented:#2e7d32; --secondary:#1565c0; --inference:#00838f; --possible:#c98a00;
     --unverified:#8a8a8a; --oral:#6a1b9a; --refuted:#c62828; --other:#8a8a8a;
+    --context:#7e57c2;
   }
   *{box-sizing:border-box}
   body{margin:0;font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
@@ -133,7 +134,7 @@ TEMPLATE = r"""<!doctype html>
   .card.inference{border-left-color:var(--inference)} .card.possible{border-left-color:var(--possible)}
   .card.unverified{border-left-color:var(--unverified)} .card.oral{border-left-color:var(--oral)}
   .card.refuted{border-left-color:var(--refuted);background:#fdf3f2}
-  .card.context{background:#f3f0ff}
+  .card.context{background:#f3f0ff;border-left-color:var(--context)}
   .date{font-weight:700;color:var(--muted);font-size:.9rem}
   .event{font-size:.97rem}
   .event strong{font-weight:700}
@@ -141,6 +142,7 @@ TEMPLATE = r"""<!doctype html>
   .meta{margin-top:7px;display:flex;flex-wrap:wrap;gap:6px}
   .pill{font-size:.72rem;padding:2px 8px;border-radius:999px;border:1px solid var(--line);background:#faf7f0;color:var(--muted)}
   .pill.conf{color:#fff;border:0}
+  .pill.ctx{background:var(--context);color:#fff;border:0}
   .conf.documented{background:var(--documented)} .conf.secondary{background:var(--secondary)}
   .conf.inference{background:var(--inference)} .conf.possible{background:var(--possible)}
   .conf.unverified{background:var(--unverified)} .conf.oral{background:var(--oral)}
@@ -168,7 +170,7 @@ TEMPLATE = r"""<!doctype html>
       <p><span class="swatch" style="background:var(--oral)"></span>🗣️ Oral history</p>
       <p><span class="swatch" style="background:var(--unverified)"></span>⬜ Unverified</p>
       <p><span class="swatch" style="background:var(--refuted)"></span>🔴 Refuted / unresolved</p>
-      <p style="color:var(--muted)"><span class="swatch" style="background:#f3f0ff;border:1px solid var(--line)"></span>Historical context</p>
+      <p><span class="swatch" style="background:var(--context)"></span>Historical context (national / regional)</p>
     </div>
   </aside>
   <main>
@@ -218,7 +220,7 @@ function match(e){
 }
 function card(e){
   const fam = e.families.map(x=>`<span class="pill">${x}</span>`).join("");
-  const ctx = e.is_context?'<span class="pill">Historical context</span>':"";
+  const ctx = e.is_context?'<span class="pill ctx">Historical context</span>':"";
   const src = e.reference && e.reference!=="—" ? `<div class="src">Source: ${md(e.reference)}</div>`:"";
   return `<article class="card ${e.cls}${e.is_context?' context':''}">
     <div class="date">${e.date}</div>
