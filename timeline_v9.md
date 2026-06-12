@@ -50,7 +50,7 @@
 | 1800 | **HISTORICAL CONTEXT:** Thomas Jefferson wins the presidential election, defeating incumbent John Adams (after an electoral tie with Aaron Burr resolved by the House in 1801); Aaron Burr becomes Vice President. | ✅ | |
 | 1803 | **HISTORICAL CONTEXT:** Louisiana Purchase doubles the size of the United States | ✅ | context/louisiana_purchase.md [planned] |
 | 1804 | **HISTORICAL CONTEXT:** Thomas Jefferson wins re-election, defeating Charles Cotesworth Pinckney; George Clinton becomes Vice President. | ✅ | |
-| 1805 | Alexander Mixon (Ichabod's son, future MS migrant) born | 📚 | mixon_alabama_migration.md |
+| 1805 | Alexander Mixon (Ichabod's son, future Mississippi migrant) born in South Carolina | 📚 | mixon_alabama_migration.md |
 | 1808 | **HISTORICAL CONTEXT:** James Madison wins the presidential election, defeating Charles Cotesworth Pinckney; George Clinton continues as Vice President. | ✅ | |
 | ~1809-1817 | Possible birth window for Sion's actual father if a generation was collapsed in family memory | 🟡 | People/Sion_Asbury_Hutcheson.md |
 | 1809 | **HISTORICAL CONTEXT:** Twiggs County, GA created from Wilkinson County | ✅ | places/twiggs_county_ga.md [planned] |
