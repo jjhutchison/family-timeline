@@ -8,10 +8,26 @@ family timeline, with every entry color-coded by how solid the evidence is
 — do not hand-edit `index.html` for content; edit the Markdown and rebuild.
 
 ## Files
-- `index.html` — the web page (data embedded inline; **opens by double-click, no server needed**)
+- `index.html` — the **research view** (data embedded inline; **opens by double-click, no server needed**)
+- `index-public.html` — the **public view** (same data, but internal source citations and audit-only entries are omitted; share this one)
 - `timeline_v9.md` — the canonical timeline (copy of the research project's file)
-- `build.py` — regenerates `index.html` from `timeline_v9.md`
+- `build.py` — regenerates **both** pages from `timeline_v9.md`
 - `.nojekyll` — tells GitHub Pages to serve the files as-is
+
+## Two views from one source
+Both pages are generated from the same `timeline_v9.md` — there is no second
+content file to keep in sync. One `python3 build.py` writes both:
+- **`index.html` (research view)** — everything: internal `source_*.md` / D- / Q-
+  citations and audit-only rows (REFUTED claims, same-name-disambiguation notes).
+- **`index-public.html` (public view)** — for readers who aren't the researcher:
+  the source/citation line is hidden and **research-only rows are dropped**.
+  A row counts as research-only if its confidence is REFUTED or purely 🔴, **or**
+  if you add the tag **`[research-only]`** anywhere in its event text in the
+  Markdown (the tag itself is stripped from display). Use that tag to hide any
+  additional internal-only entry from the public view without deleting it.
+
+(Still a known limitation: inline project shorthand like "(D-11, resolved-on-weight)"
+inside otherwise-public sentences is *not* yet stripped — that's a planned next step.)
 
 ## View it locally
 Just **double-click `index.html`** — it works offline, no web server required.

@@ -71,6 +71,14 @@ def parse(md: str):
         if date.lower() in ("year", "date") or set(date) <= set("-: "):
             continue  # header row / separator
         grp, cls = confidence_group(conf)
+        # research-only: audit / disambiguation rows (a REFUTED claim, or a row
+        # whose confidence is purely 🔴), or anything the researcher explicitly
+        # tags "[research-only]". Hidden from the PUBLIC view; kept in the
+        # research view and always in the canonical Markdown.
+        research_only = ("REFUTED" in conf.upper()
+                         or conf.strip().startswith("🔴")
+                         or "[research-only]" in event.lower())
+        event = re.sub(r"\s*\[research-only\]\s*", " ", event, flags=re.I).strip()
         is_ctx = "HISTORICAL CONTEXT" in event
         # National-context rows (e.g., presidential elections) shouldn't pick up
         # family tags from incidental given-name matches like VP "Daniel D. Tompkins".
@@ -83,6 +91,7 @@ def parse(md: str):
             "reference": ref,
             "era": cur["title"],
             "is_context": is_ctx,
+            "research_only": research_only,
             "families": [] if is_election else families_for(event),
             "group": grp,
             "cls": cls,
@@ -186,9 +195,10 @@ TEMPLATE = r"""<!doctype html>
     <div id="timeline"></div>
   </main>
 </div>
-<footer>Generated from <code>timeline_v9.md</code> (the canonical source). To update, edit the Markdown and run <code>python3 build.py</code>. Confidence ratings reflect the research project's evidence discipline.</footer>
+<footer><strong>__VIEWNOTE__</strong> Generated from the project's canonical timeline. Confidence ratings reflect the research project's evidence discipline.</footer>
 <script>
 const DATA = __DATA__;
+const PUBLIC = __PUBLIC__;
 const $ = s => document.querySelector(s);
 const f = {q:"",era:"",family:"",conf:"",hideCtx:false};
 const md = s => (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;")
@@ -221,7 +231,7 @@ function match(e){
 function card(e){
   const fam = e.families.map(x=>`<span class="pill">${x}</span>`).join("");
   const ctx = e.is_context?'<span class="pill ctx">Historical context</span>':"";
-  const src = e.reference && e.reference!=="—" ? `<div class="src">Source: ${md(e.reference)}</div>`:"";
+  const src = (!PUBLIC && e.reference && e.reference!=="—") ? `<div class="src">Source: ${md(e.reference)}</div>`:"";
   return `<article class="card ${e.cls}${e.is_context?' context':''}">
     <div class="date">${e.date}</div>
     <div><div class="event">${md(e.event)}</div>
@@ -245,19 +255,38 @@ init();
 </html>
 """
 
+def render_html(title, last_updated, sections, public):
+    """Render one self-contained page. public=True drops research-only entries
+    and hides the internal source/reference line; both views come from the SAME
+    canonical Markdown (no second source file to maintain)."""
+    if public:
+        sections = [{"title": s["title"],
+                     "events": [e for e in s["events"] if not e["research_only"]]}
+                    for s in sections]
+        sections = [s for s in sections if s["events"]]
+    data = {"title": title, "sections": sections}
+    payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")  # safe inside <script>
+    note = ("Public view -- internal source citations and audit-only entries are omitted."
+            if public else
+            "Research view -- includes internal source citations and audit-only entries.")
+    return (TEMPLATE
+            .replace("__TITLE__", title)
+            .replace("__LASTUPDATED__", last_updated or "")
+            .replace("__PUBLIC__", "true" if public else "false")
+            .replace("__VIEWNOTE__", note)
+            .replace("__DATA__", payload))
+
 def main():
     if not SRC.exists():
         sys.exit(f"missing {SRC}")
     title, last_updated, sections = parse(SRC.read_text(encoding="utf-8"))
-    data = {"title": title, "sections": sections}
-    payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")  # safe inside <script>
-    html = (TEMPLATE
-            .replace("__TITLE__", title)
-            .replace("__LASTUPDATED__", last_updated or "")
-            .replace("__DATA__", payload))
-    OUT.write_text(html, encoding="utf-8")
-    n = sum(len(s["events"]) for s in sections)
-    print(f"Wrote {OUT}  ({n} entries across {len(sections)} eras)")
+    n_full = sum(len(s["events"]) for s in sections)
+    n_research = sum(1 for s in sections for e in s["events"] if e["research_only"])
+    OUT.write_text(render_html(title, last_updated, sections, public=False), encoding="utf-8")
+    print(f"Wrote {OUT}  (research view, {n_full} entries across {len(sections)} eras)")
+    out_public = HERE / "index-public.html"
+    out_public.write_text(render_html(title, last_updated, sections, public=True), encoding="utf-8")
+    print(f"Wrote {out_public}  (public view, {n_full - n_research} entries; {n_research} research-only hidden)")
 
 if __name__ == "__main__":
     main()
