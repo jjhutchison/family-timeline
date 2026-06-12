@@ -79,6 +79,15 @@ def parse(md: str):
                          or conf.strip().startswith("🔴")
                          or "[research-only]" in event.lower())
         event = re.sub(r"\s*\[research-only\]\s*", " ", event, flags=re.I).strip()
+        # Phase 2: split the public sentence from the research apparatus on the
+        # U+2016 sentinel. The public view shows only the part BEFORE it; the
+        # research view (and the canonical Markdown) keep the whole entry.
+        if "‖" in event:
+            pub, _, res = event.partition("‖")
+            event_public = pub.strip()
+            event = (pub.strip() + " " + res.strip()).strip()
+        else:
+            event_public = event
         is_ctx = "HISTORICAL CONTEXT" in event
         # National-context rows (e.g., presidential elections) shouldn't pick up
         # family tags from incidental given-name matches like VP "Daniel D. Tompkins".
@@ -92,6 +101,7 @@ def parse(md: str):
             "era": cur["title"],
             "is_context": is_ctx,
             "research_only": research_only,
+            "event_public": event_public,
             "families": [] if is_election else families_for(event),
             "group": grp,
             "cls": cls,
@@ -260,10 +270,13 @@ def render_html(title, last_updated, sections, public):
     and hides the internal source/reference line; both views come from the SAME
     canonical Markdown (no second source file to maintain)."""
     if public:
-        sections = [{"title": s["title"],
-                     "events": [e for e in s["events"] if not e["research_only"]]}
-                    for s in sections]
-        sections = [s for s in sections if s["events"]]
+        new = []
+        for s in sections:
+            evs = [{**e, "event": e["event_public"]}
+                   for e in s["events"] if not e["research_only"]]
+            if evs:
+                new.append({"title": s["title"], "events": evs})
+        sections = new
     data = {"title": title, "sections": sections}
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")  # safe inside <script>
     note = ("Public view -- internal source citations and audit-only entries are omitted."
